@@ -8,3 +8,18 @@
   height: 50px !important;
   margin-top: 20px !important;
 }
+
+.sidebar {
+  border-right: 1px solid lightgray;
+  flex: 0.3;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.twittericon {
+  color: deepskyblue;
+  font-size: 30px !important;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
