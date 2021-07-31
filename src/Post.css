@@ -1,0 +1,46 @@
+.post {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 10px;
+  border-bottom: solid 2px lightgray;
+}
+
+.post-body > img {
+  border-radius: 20%;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.post-check {
+  color: deepskyblue !important;
+  font-size: 16px !important;
+}
+
+.header-specialtext {
+  font-weight: 600;
+  font-size: 12 !important;
+  color: gray;
+}
+
+.post-headerText > h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.post-headerDesc {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.post-body {
+  flex: 1;
+  padding: 10px;
+}
+
+.post-avatar {
+  padding: 15px;
+}
