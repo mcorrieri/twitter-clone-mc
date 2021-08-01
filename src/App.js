@@ -7,8 +7,6 @@ import Widgets from "./Components/Widgets";
 function App() {
   return (
     <div className="app">
-      <h1 className="title"></h1>
-
       {/* Sidebar  */}
       <Sidebar />
 
