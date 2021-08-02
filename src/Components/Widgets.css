@@ -1,5 +1,6 @@
 .widgets {
   flex: 0.3;
+  overflow-y: scroll;
 }
 
 .widget-input {
@@ -15,6 +16,7 @@
 .widget-input > input {
   border: none;
   background-color: lightgrey;
+  flex: 1;
 }
 
 .widget-search-icon {

@@ -17,7 +17,7 @@ function TweetBox() {
       text: tweet,
       image: tweetImage,
       avatar:
-        "http://www.hot-dog.org/sites/default/files/gallery/regional/regional-B8-Steamed-Hot-Dog-Naked-HR.jpg",
+        "https://gray-wect-prod.cdn.arcpublishing.com/resizer/BStc1ZLsidd3-Rs1T0KRZBsecBg=/980x0/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/PNY6DS6G5RHZLL54TV6VMJQAVE.jpg",
     });
     setTweet("");
     setTweetImage("");
@@ -27,7 +27,7 @@ function TweetBox() {
     <div className="tweet-box">
       <form>
         <div className="tweetbox-input">
-          <Avatar src="http://www.hot-dog.org/sites/default/files/gallery/regional/regional-B8-Steamed-Hot-Dog-Naked-HR.jpg" />
+          <Avatar src="https://gray-wect-prod.cdn.arcpublishing.com/resizer/BStc1ZLsidd3-Rs1T0KRZBsecBg=/980x0/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/PNY6DS6G5RHZLL54TV6VMJQAVE.jpg" />
           <input
             onChange={(e) => setTweet(e.target.value)}
             value={tweet}
