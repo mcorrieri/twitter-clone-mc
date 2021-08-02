@@ -1,6 +1,7 @@
 import { SearchOutlined } from "@material-ui/icons";
 import React from "react";
-import { Timeline, Tweet } from "react-twitter-widgets";
+import { Share, Timeline, Tweet } from "react-twitter-widgets";
+import "./Widgets.css";
 
 function Widgets() {
   return (
@@ -10,18 +11,25 @@ function Widgets() {
         <input placeholder="Search Twitter" type="text" />
       </div>
 
-      <div className="widget-container"></div>
-      <h2>What's happenin?</h2>
-      <Tweet tweetId="841418541026877441" />
-      <Timeline
-        dataSource={{
-          sourceType: "profile",
-          screenName: "katyperry",
-        }}
-        options={{
-          height: "400",
-        }}
-      />
+      <div className="widget-container">
+        <h2>What's happenin?</h2>
+        <Tweet tweetId="841418541026877441" />
+        <Tweet tweetId="841418541026877441" />
+        <Tweet tweetId="841418541026877441" />
+
+        <Timeline
+          dataSource={{
+            sourceType: "list",
+            screenName: "reactjs",
+          }}
+          options={{
+            height: "400",
+          }}
+        />
+        <div className="share-btn">
+          <Share />
+        </div>
+      </div>
     </div>
   );
 }

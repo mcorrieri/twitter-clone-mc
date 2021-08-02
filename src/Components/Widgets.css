@@ -1,0 +1,41 @@
+.widgets {
+  flex: 0.3;
+}
+
+.widget-input {
+  display: flex;
+  background-color: lightgrey;
+  border-radius: 20px;
+  padding: 10px;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.widget-input > input {
+  border: none;
+  background-color: lightgrey;
+}
+
+.widget-search-icon {
+  color: gray;
+  padding: 5px;
+}
+
+.widget-container {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: lightgrey;
+  border-radius: 20px;
+}
+
+.widget-container > h2 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.share-btn {
+  display: flex;
+  justify-content: center;
+}
