@@ -18,14 +18,16 @@ function Feed() {
       <h2 className="feed__header">Home</h2>
       <TweetBox />
 
-      <Post
-        displayName="Duey TP"
-        username="Duey666overlord"
-        verified={true}
-        text="is this thing on?"
-        avatar="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQYv62SUx-d8ueCVGcqLEXI5uifHWn0nNNhhOxkh8vRDNmeTuU8"
-        image="https://media.tenor.com/images/0b6584bd4c8d717d55aebab0ae16f1fb/tenor.gif"
-      />
+      {posts.map((post) => (
+        <Post
+          displayName={post.displayName}
+          username={post.username}
+          verified={post.verified}
+          text={post.text}
+          avatar={post.avatar}
+          image={post.image}
+        />
+      ))}
     </div>
   );
 }
