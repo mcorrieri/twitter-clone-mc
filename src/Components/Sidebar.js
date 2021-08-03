@@ -20,7 +20,6 @@ function Sidebar() {
       <SidebarOptions Icon={MailIcon} text="Messages" />
       <SidebarOptions Icon={PersonOutlineIcon} text="Profile" />
       <SidebarOptions Icon={MoreHorizIcon} text="More" />
-      {/* Sidebar options  */}
 
       <Button variant="outlined" fullWidth className="tweetbtn">
         Tweet
